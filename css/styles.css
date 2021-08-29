@@ -225,7 +225,7 @@ span {
   }
 
   .popup {
-    right: -75px;
+    transform: translateX(95px);
   }
 
 }
