@@ -1,7 +1,7 @@
 
-    function myFunction()
-    {
-      var popup = document.getElementById("myPopup");
-      var popupDiv=document.getElementById("popup");
-      popup.classList.toggle("show");
-    }
+const arrow = document.querySelector(".arrow");
+const share = document.querySelector(".share");
+
+arrow.addEventListener("click", function () {
+  share.classList.toggle("show");
+});
