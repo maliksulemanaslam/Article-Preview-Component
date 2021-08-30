@@ -24,7 +24,7 @@ p {
   color: hsl(214, 17%, 51%);
 }
 
-#image {
+#image-drawer {
   height: 100%;
 }
 
@@ -61,7 +61,7 @@ p {
   margin-bottom: 0;
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,7 +88,7 @@ footer {
   font-size: 1.1rem;
 }
 
-h3 {
+h2 {
   color: hsl(217, 19%, 35%);
   font-size: 15px;
 }
@@ -189,7 +189,7 @@ a img:hover {
     padding-right: 0;
   }
 
-  #image {
+  #image-drawer {
     width: 100%;
     height: 80%;
     border-top-left-radius: 1.2rem !important;
@@ -215,7 +215,7 @@ a img:hover {
 }
 
 @media (min-width:895px) {
-  footer {
+  .footer {
     border-bottom-right-radius: 1.5rem;
     padding: 0.1rem 3.2rem 1.2rem;
   }
